@@ -310,9 +310,7 @@ Berikut adalah contoh untuk setiap method HTTP:
 
 ### Constructor
 
-```
-new Khoir(baseURL)
-```
+`new Khoir(baseURL)`
 
 - `baseURL` (_string_): URL dasar untuk semua permintaan API.
 
@@ -320,9 +318,7 @@ new Khoir(baseURL)
 
 #### `get`
 
-```
-get(endpoint, (headers = {}), callback)
-```
+`get(endpoint, (headers = {}), callback)`
 
 - `endpoint` (_string_): Endpoint API yang diminta.
 - `headers` (_object_): Header opsional yang disertakan dalam permintaan.
@@ -330,9 +326,7 @@ get(endpoint, (headers = {}), callback)
 
 #### `post`
 
-```
-post(endpoint, data, (headers = {}), callback)
-```
+`post(endpoint, data, (headers = {}), callback)`
 
 - `endpoint` (_string_): Endpoint API yang diminta.
 - `data` (_object_): Data yang disertakan dalam body permintaan.
@@ -341,9 +335,7 @@ post(endpoint, data, (headers = {}), callback)
 
 #### `put`
 
-```
-put(endpoint, data, (headers = {}), callback)
-```
+`put(endpoint, data, (headers = {}), callback)`
 
 - `endpoint` (_string_): Endpoint API yang diminta.
 - `data` (_object_): Data yang disertakan dalam body permintaan.
@@ -352,9 +344,7 @@ put(endpoint, data, (headers = {}), callback)
 
 #### `delete`
 
-```
-delete (endpoint, (headers = {}), callback)
-```
+`delete (endpoint, (headers = {}), callback)`
 
 - `endpoint` (_string_): Endpoint API yang diminta.
 - `headers` (_object_): Header opsional yang disertakan dalam permintaan.
@@ -362,9 +352,7 @@ delete (endpoint, (headers = {}), callback)
 
 #### `patch`
 
-```
-patch(endpoint, data, (headers = {}), callback)
-```
+`patch(endpoint, data, (headers = {}), callback)`
 
 - `endpoint` (_string_): Endpoint API yang diminta.
 - `data` (_object_): Data yang disertakan dalam body permintaan.
@@ -373,9 +361,7 @@ patch(endpoint, data, (headers = {}), callback)
 
 #### `head`
 
-```
-head(endpoint, (headers = {}), callback)
-```
+`head(endpoint, (headers = {}), callback)`
 
 - `endpoint` (_string_): Endpoint API yang diminta.
 - `headers` (_object_): Header opsional yang disertakan dalam permintaan.
@@ -383,9 +369,7 @@ head(endpoint, (headers = {}), callback)
 
 #### `options`
 
-```
-options(endpoint, (headers = {}), callback)
-```
+`options(endpoint, (headers = {}), callback)`
 
 - `endpoint` (_string_): Endpoint API yang diminta.
 - `headers` (_object_): Header opsional yang disertakan dalam permintaan.
