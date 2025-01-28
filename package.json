@@ -1,0 +1,55 @@
+{
+  "name": "khoir",
+  "version": "0.0.0",
+  "description": "Khoir adalah class JavaScript yang sederhana dan fleksibel untuk melakukan permintaan HTTP",
+  "exports": {
+    "require": "./dist/cjs/index.js",
+    "import": "./dist/esm/index.js"
+  },
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
+  "files": [
+    "./dist/"
+  ],
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Khoir",
+    "http-client",
+    "fetch-wrapper",
+    "api-client",
+    "rest-api",
+    "promise-based-http-client",
+    "http-request",
+    "json-fetch",
+    "error-handling",
+    "callback-support",
+    "dynamic-http-methods",
+    "lightweight-http-library",
+    "baseurl-support",
+    "get-request",
+    "post-request",
+    "put-request",
+    "delete-request",
+    "patch-request",
+    "head-request",
+    "options-request",
+    "custom-http-headers",
+    "minimal-http-wrapper",
+    "async-http",
+    "javascript-library",
+    "network-requests",
+    "api-integration-tool",
+    "backend-frontend-requests",
+    "custom-fetch-client"
+  ],
+  "author": "salmantok",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salmantok/khoir.git"
+  },
+  "homepage": "https://github.com/salmantok/khoir#readme"
+}
