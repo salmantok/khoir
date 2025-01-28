@@ -1,7 +1,7 @@
 {
   "name": "khoir",
   "version": "0.0.1",
-  "description": "Khoir adalah class JavaScript yang sederhana dan fleksibel untuk melakukan permintaan HTTP",
+  "description": "Sederhana dan fleksibel untuk melakukan permintaan HTTP",
   "exports": {
     "require": "./dist/cjs/index.js",
     "import": "./dist/esm/index.js"
